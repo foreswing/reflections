@@ -1,0 +1,31 @@
+Lesson 1
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Made it much easier to find error because it extracted the lines that were different so you only had to look through them as opposed to having to look through all lines of the file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+ 	Much easier to fall-back to a previous version thus allowing you to freely change the existing version without having to worry about making too many incremental changes for fear that you will have a hard time remembering how the part you changed worked before.  Also, you could reflect on your programming style based on how you've created your programs and adopt more efficient methods over time.
+
+ What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+ 	Primarily you can choose to save in a more logical manner that will be meaningful for you from an historical coding perspective.
+
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ 	Coding involves related files whereas typically documents are more singularly focused.  Saving them together provides a simple method for the programmer to know the correct files to include in a new release of the code or the correct files to fallback to when you decide a changed made was not needed or you want to try a different approach with the change.
+
+ How can you use the commands git log and git diff to view the history of files?
+
+ 	Use git log to get all commits to scan revision history and use git diff to see the specific changes made between any two commits.
+
+ How might using version control make you more confident to make changes that could break something?
+
+ 	You know you can easily revert back to a working version.
+
+ Now that you have your workspace set up, what do you want to try using Git for?
+
+ 	Managing the code and projects I'll be developing throughout my Nanodegree program as well as for personal projects I undertake on my own.
+
+ 
