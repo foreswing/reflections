@@ -1,0 +1,9 @@
+Lesson 2
+
+What happens when you initialize a repository? Why do you need to do it?
+
+	It creates the git metadata files and must be done to begin using git on the files in the new repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is where files from the working directory go temporarily until they're ready to be committed to the repository.  This allows you to logically package up all of the files into a single area until you're ready to commit them.
