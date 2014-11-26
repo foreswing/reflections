@@ -16,3 +16,6 @@ What are some situations when branches would be helpful in keeping your history 
 
 	When you are tracking a beta version separate from the working version or when you might want to create a proof of concept version but keep it separate from the working version.  You could keep versions of your files in separate branches while you're working on the "major" revisions.
 	
+How do the diagrams help you visualize the branch structure?
+
+	They integrate the chronology of commits across the various branches so you can see what changes were made when and to which branch.  This allows you to know what changes are or aren't in a given branch.
