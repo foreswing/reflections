@@ -11,3 +11,8 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 
 	Do git adds as you modify files associated with the logical change but don't do the commit until you have finished modifying all files associated with the logical change.  You can do git diff to verify that you have changed everything you needed to since it compares the working directory with the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you are tracking a beta version separate from the working version or when you might want to create a proof of concept version but keep it separate from the working version.  You could keep versions of your files in separate branches while you're working on the "major" revisions.
+	
