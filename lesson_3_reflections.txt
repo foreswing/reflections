@@ -6,3 +6,6 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	Similar to why you want to commit "logical" changes ... you may want to do the same thing using Git and since it won't know automatically what you determine is a logical pull point, then you would want to do this manually.
 	
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Forks work entirely on GitHub and are used to essentially copy someone else's repository and put it in your GitHub repository and cut all ties back to the original person's repository.  Clones are done from your computer and can either clone a repository from a different location on your computer, or most likely, from someone else's GitHub by using the URL where that repository exists on their GitHub.  Finally, branching has already been described and is used to maintain one branch of changes (or more) separate from the master branch on your local computer.
