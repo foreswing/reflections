@@ -19,3 +19,11 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	They integrate the chronology of commits across the various branches so you can see what changes were made when and to which branch.  This allows you to know what changes are or aren't in a given branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The merge results in combining the code from the two branches into one new branch, typically the master branch.  The diagram shows the new commit for the merged branch as having two parents, one from each branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's auto-merging saves programmer time allowing simultaneous updating of files and will incorporate all changes from both branches into a new merged branch as long as there are no code conflicts.  The only downside is when there are conflicts, then the programmers have to collaborate to determine the final conflict resolution.  However, Git highlights the conflicts for them thus making this manual process easier than what it would be without Git.
