@@ -18,4 +18,6 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 	It would be harder because things would have to move in a serial vs. parallel fashion.  You would have to have several versions of file(s) stored on a common server and would need to coordinate each time any party wanted to make changes to ensure they had the latest version.  Then, someone else would have to wait until they were done to make changes or take a chance that their changes wouldn't conflict with the other persons changes and then would have to manually merge the change file(s).  Most likely, to be safe, people would work in a serial fashion resulting in lower productivity.
 
-	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When you're trying out some new code or working on a major change with a group of people.  Make changes in the master for non-collaborative minor bug fixes.  Just using master is much easier to manage while useing separate branches allow for stability in the current version while working on a newer version.
